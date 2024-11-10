@@ -6,10 +6,12 @@ class UserService{
   //ujnhn
   //jjn
   static final Dio dio = Dio();
+  //dgdgjj
   String url ='#';
   static Future<UserModel> fetchrandomuser() async{
     try{
       Response response = await dio.get();
+      //rhgrh
       if(response.statusCode == 200)
       {
         return UserModel.fromjson(response.data);
