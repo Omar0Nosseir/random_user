@@ -3,6 +3,7 @@ import 'package:dio/dio.dart';
 import 'package:random_users/Models/randomuser_model.dart';
 
 class UserService{
+  //ujnhn
   static final Dio dio = Dio();
   String url ='#';
   static Future<UserModel> fetchrandomuser() async{
